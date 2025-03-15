@@ -1,0 +1,38 @@
+.dish-img {
+    height: 300px;
+    width: 100%;
+}
+
+.btn-close {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 650px) {
+    .dish-img {
+        height: 285px;
+        width: 100%;
+    }
+
+    .btn-close {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+}
+
+#dish-photos .promo {
+    -webkit-text-stroke: 1.5px red;
+    color: yellow;
+}
+
+.alert {
+    z-index: 1050;
+}
+
+.dish-details, .dish-photos, .card {
+    background-color: rgba(155, 230, 240, 0.7);
+}
+
+.card-body {
+    vertical-align: middle;
+}

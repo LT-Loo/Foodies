@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SuperDiscount";
+    src: url("/webAppDev/Foodies/public/font/SuperDiscount-GOyjZ.ttf") format("truetype");
+}
+
+.dish-img {
+    height: 250px;
+    width: 70%;
+}
+
+.btn-close {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 650px) {
+    .dish-img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .btn-close {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+}
+
+.promo {
+    font-family: "SuperDiscount";
+}
+
+#dish-details .promo {
+    -webkit-text-stroke: 1.5px red;
+    color: yellow;
+}
+
+.card-btn {
+    z-index: 300;
+}
+
+.alert {
+    z-index: 1050;
+}
+
+#restaurant-details, .card {
+    background-color: rgba(155, 230, 240, 0.7);
+}
+
+.dish-desc {
+    width: 100%;
+}

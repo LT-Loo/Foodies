@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "DynaPuff";
+    src: url("/webAppDev/Foodies/public/font/DynaPuff-VariableFont_wdth,wght.ttf ") format("truetype");
+}
+
+html, body {
+    height: 100vh;
+}
+
+.title-font {
+    font-family: "DynaPuff", cursive;
+    color: rgb(0, 30, 255);
+}
+
+.bi {
+    vertical-align: 0.125em;
+}
+
+.dropdown-item:active {
+    background: #ced4da;
+    color: black;
+}
