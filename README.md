@@ -25,5 +25,5 @@ The admin user type serves a unique role, that is to approve newly registered re
 4. Run `php artisan serve` to launch the website.
 
 ## Developer
-Loo
+Loo<br>
 loo.workspace@gmail.com
